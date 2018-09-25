@@ -8,14 +8,14 @@ The linter rules in this config are a slightly modified version of the [`airbnb`
 
 ### Yarn
 
-To install via yarn, if you do not have the eslint peer dependency installed, install it first:
+To install via yarn, if you do not have the peer dependencies installed, install them first:
 ```sh
-yarn add eslint --dev
+yarn add eslint eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react --dev
 ```
 
 Then install the config:
 ```sh
-yarn add eslint-config-blackbird https://github.com/blackbird-studios/eslint-config-blackbird
+yarn add https://github.com/blackbird-studios/eslint-config-blackbird#v1.0.0 --dev
 
 ```
 
@@ -23,7 +23,7 @@ yarn add eslint-config-blackbird https://github.com/blackbird-studios/eslint-con
 
 To install via npm (version **5+**):
 ```sh
-npx install-peerdeps --dev eslint-config-airbnb
+npx install-peerdeps --dev https://github.com/blackbird-studios/eslint-config-blackbird#v1.0.0
 ```
 
 ## Usage
