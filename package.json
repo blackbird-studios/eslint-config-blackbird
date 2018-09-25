@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-blackbird",
+  "version": "1.0.0",
+  "description": "Blackbird Studios default Eslint config",
+  "main": "index.js",
+  "author": "Blackbird Studios",
+  "license": "MIT",
+  "private": true
+}
