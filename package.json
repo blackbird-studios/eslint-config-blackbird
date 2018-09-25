@@ -2,8 +2,24 @@
   "name": "eslint-config-blackbird",
   "version": "1.0.0",
   "description": "Blackbird Studios default Eslint config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackbird-studios/eslint-config-blackbird"
+  },
   "main": "index.js",
   "author": "Blackbird Studios",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.5.0"
+  }
 }
